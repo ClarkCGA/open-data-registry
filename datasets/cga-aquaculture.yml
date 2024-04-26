@@ -1,0 +1,42 @@
+Name: Clark CGA Aquaculture Dataset
+Description: The Clark Center for Geospatial Analysis Aquaculture product provides aquaculture models for select countries.
+Documentation: https://github.com/ClarkCGA/aqua-pond-cloud
+Contact: cga@clarku.edu
+ManagedBy: "[Clark CGA](https://www.cga.clarku.edu)"
+UpdateFrequency: as needed
+Tags:
+  - aquaculture
+  - geospatial
+  - machine learning
+  - land data
+  - environmental
+  - earth observation
+  - cog
+License: <TODO>
+Citation: "To cite the dataset in a publication please refer to... <TODO>"
+Resources:
+  - Description: CGA Aquaculture in a S3 bucket
+    ARN:
+    Region: us-east-1
+    Type: S3 Bucket
+    Explore: "<TODO: Add all methods of accessing this data>"
+DataAtWork:
+  Tutorials:
+    - Title:
+      URL:
+      NotebookURL:
+      AuthorName:
+      AuthorURL:
+      Services:
+  Tools & Applications:
+    - Title:
+      URL:
+      AuthorName:
+      AuthorURL:
+  Publications:
+    - Title:
+      URL:
+      AuthorName:
+      AuthorURL:
+ADXCategories:
+  -
