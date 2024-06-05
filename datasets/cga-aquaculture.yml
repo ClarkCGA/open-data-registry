@@ -9,7 +9,7 @@ Description:
   The land cover maps are based on Landsat 5 for 1999 and Landsat 8 imagery for the remaining years. All Landsat data were upsampled to 15 m and substituted with pan-merged bands where appropriate. Additional input data included SRTM elevations, Tasseled Cap transformed images and multiple convolutions of reflectance data.
 Documentation: https://github.com/ClarkCGA/aqua-pond-cloud
 Contact: cga@clarku.edu
-ManagedBy: "[Clark CGA](https://www.cga.clarku.edu)"
+ManagedBy: "[Clark CGA](https://www.clarku.edu/cga)"
 UpdateFrequency: N/A
 Tags:
   - aquaculture
@@ -20,14 +20,14 @@ Tags:
   - geospatial
   - satellite imagery
 License: [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
-Citation: <TODO> To cite the dataset in a publication please refer to... 
+Citation: <TODO> 
 Resources:
   - Description: COG files in a S3 bucket
     ARN:
     Region: us-east-1
     Type: S3 Bucket
     RequesterPays: False
-    Explore: <TODO> Add all methods of accessing this data>
+    Explore: <TODO>
 DataAtWork:
   # Tutorials:
   #   - Title:
