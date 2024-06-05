@@ -1,42 +1,50 @@
-Name: Clark CGA Aquaculture Dataset
-Description: The Clark Center for Geospatial Analysis Aquaculture product provides aquaculture models for select countries.
+Name: Pond Aquaculture and Coastal Wetlands Dataset
+Description: 
+  This dataset contains an inventory of pond aquaculture and coastal habitats around the world in support of the Gordon and [Betty Moore Foundation’s Oceans and Seafood Markets Initiative](https://www.moore.org/initiative-strategy-detail?initiativeId=conservation-and-markets-initiative), and the work of its partner organizations. Three main land cover categories are mapped: mangrove, coastal wetland, and pond aquaculture (in a coastal zone thought to be most conductive to brackish water cultivation (e.g., shrimp)). The dataset is produced by Clark Center for Geospatial Analytics (Clark CGA), formerly Clark Labs, under a grant from the Gordon and Betty Moore Foundation.
+  <br/>
+  <br/>
+  Land cover maps are available for year 1999, 2014, 2018, 2020 and 2022. 1999 was chosen because of its critical role in the sustainability certification process for farms under the Aquaculture Stewardship Council’s Shrimp Standard version 1.1. Countries mapped in this version include: Bangladesh, Brazil, Cambodia, China, Ecuador, El Salvador, Honduras, India, Indonesia, Malaysia, Mexico, Myanmar, Nicaragua, Philippines, Sri Lanka, Thailand, and Vietnam.
+  <br/>
+  <br/>
+  The land cover maps are based on Landsat 5 for 1999 and Landsat 8 imagery for the remaining years. All Landsat data were upsampled to 15 m and substituted with pan-merged bands where appropriate. Additional input data included SRTM elevations, Tasseled Cap transformed images and multiple convolutions of reflectance data.
 Documentation: https://github.com/ClarkCGA/aqua-pond-cloud
 Contact: cga@clarku.edu
-ManagedBy: "[Clark CGA](https://www.cga.clarku.edu)"
-UpdateFrequency: as needed
+ManagedBy: "[Clark CGA](https://www.clarku.edu/cga)"
+UpdateFrequency: N/A
 Tags:
   - aquaculture
-  - geospatial
-  - machine learning
-  - land data
-  - environmental
-  - earth observation
   - cog
-License: <TODO>
-Citation: "To cite the dataset in a publication please refer to... <TODO>"
+  - conversation data
+  - earth observation
+  - environmental
+  - geospatial
+  - satellite imagery
+License: [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+Citation: <TODO> 
 Resources:
-  - Description: CGA Aquaculture in a S3 bucket
+  - Description: COG files in a S3 bucket
     ARN:
     Region: us-east-1
     Type: S3 Bucket
-    Explore: "<TODO: Add all methods of accessing this data>"
+    RequesterPays: False
+    Explore: <TODO>
 DataAtWork:
-  Tutorials:
-    - Title:
-      URL:
-      NotebookURL:
-      AuthorName:
-      AuthorURL:
-      Services:
+  # Tutorials:
+  #   - Title:
+  #     URL:
+  #     NotebookURL:
+  #     AuthorName:
+  #     AuthorURL:
+  #     Services:
   Tools & Applications:
-    - Title:
-      URL:
-      AuthorName:
+    - Title: Interactive Map of Pond Aquaculture and Coastal Wetlands Dataset
+      URL: https://www.aquaculture.earth/
+      AuthorName: Clark CGA
       AuthorURL:
-  Publications:
-    - Title:
-      URL:
-      AuthorName:
-      AuthorURL:
-ADXCategories:
-  -
+  # Publications:
+  #   - Title:
+  #     URL:
+  #     AuthorName:
+  #     AuthorURL:
+# ADXCategories:
+  # -
